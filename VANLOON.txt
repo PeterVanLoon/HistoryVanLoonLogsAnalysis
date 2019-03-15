@@ -1,57 +1,28 @@
-vagrant@vagrant-ubuntu-trusty-32:/vagrant$ python logs.py                                                                   
-                                                                                                                            
-First Query - What are the top three articles by number of views?                                                           
-                                                                                                                            
-1. ('Candidate is jerk, alleges rival', 338647L)                                                                            
-2. ('Bears love berries, alleges bear', 253801L)                                                                            
-3. ('Bad things gone, say good people', 170098L)                                                                            
-                                                                                                                            
-Second Query - Who are the most popular article authors?                                                                    
-                                                                                                                            
-                                                                                                                            
-1. ('Ursula La Multa', 507594L)                                                                                             
-2. ('Rudolf von Treppenwitz', 423457L)                                                                                      
-3. ('Anonymous Contributor', 170098L)                                                                                       
-4. ('Markoff Chaney', 84557L)                                                                                               
-                                                                                                                            
-Third Query - 1) What are  the days in the database log where the ERROR RATE is greater than 1%?                            
-What is the Month to start the analysis - Use its number?7                                                                  
-What year?2016                                                                                                              
-How many days should the report run?31                                                                                      
-                                                                                                                            
-                                                                                                                            
-For the date of :  7 / 1 / 2016 the error rate is 0.708 %, and is unremarkable                                              
-For the date of :  7 / 2 / 2016 the error rate is 0.705 %, and is unremarkable                                              
-For the date of :  7 / 3 / 2016 the error rate is 0.731 %, and is unremarkable                                              
-For the date of :  7 / 4 / 2016 the error rate is 0.692 %, and is unremarkable                                              
-For the date of :  7 / 5 / 2016 the error rate is 0.775 %, and is unremarkable                                              
-For the date of :  7 / 6 / 2016 the error rate is 0.767 %, and is unremarkable                                              
-For the date of :  7 / 7 / 2016 the error rate is 0.658 %, and is unremarkable                                              
-For the date of :  7 / 8 / 2016 the error rate is 0.759 %, and is unremarkable                                              
-For the date of :  7 / 9 / 2016 the error rate is 0.742 %, and is unremarkable                                              
-For the date of :  7 / 10 / 2016 the error rate is 0.681 %, and is unremarkable                                             
-For the date of :  7 / 11 / 2016 the error rate is 0.739 %, and is unremarkable                                             
-For the date of :  7 / 12 / 2016 the error rate is 0.68 %, and is unremarkable                                              
-For the date of :  7 / 13 / 2016 the error rate is 0.694 %, and is unremarkable                                             
-For the date of :  7 / 14 / 2016 the error rate is 0.694 %, and is unremarkable                                             
-For the date of :  7 / 15 / 2016 the error rate is 0.742 %, and is unremarkable                                             
-For the date of :  7 / 16 / 2016 the error rate is 0.686 %, and is unremarkable                                             
-                                                                                                                            
-For the date of :  7 / 17 / 2016 the error rate is 2.263 %, and is GREATER THAN ONE PERCENT                                 
-                                                                                                                            
-For the date of :  7 / 18 / 2016 the error rate is 0.673 %, and is unremarkable                                             
-For the date of :  7 / 19 / 2016 the error rate is 0.782 %, and is unremarkable                                             
-For the date of :  7 / 20 / 2016 the error rate is 0.702 %, and is unremarkable                                             
-For the date of :  7 / 21 / 2016 the error rate is 0.757 %, and is unremarkable                                             
-For the date of :  7 / 22 / 2016 the error rate is 0.735 %, and is unremarkable                                             
-For the date of :  7 / 23 / 2016 the error rate is 0.679 %, and is unremarkable                                             
-For the date of :  7 / 24 / 2016 the error rate is 0.782 %, and is unremarkable                                             
-For the date of :  7 / 25 / 2016 the error rate is 0.716 %, and is unremarkable                                             
-For the date of :  7 / 26 / 2016 the error rate is 0.728 %, and is unremarkable                                             
-For the date of :  7 / 27 / 2016 the error rate is 0.674 %, and is unremarkable                                             
-For the date of :  7 / 28 / 2016 the error rate is 0.717 %, and is unremarkable                                             
-For the date of :  7 / 29 / 2016 the error rate is 0.695 %, and is unremarkable                                             
-For the date of :  7 / 30 / 2016 the error rate is 0.721 %, and is unremarkable                                             
-For the date of :  7 / 31 / 2016 the error rate is 0.718 %, and is unremarkable                                             
-vagrant@vagrant-ubuntu-trusty-32:/vagrant$                                                                                  
+vagrant@vagrant-ubuntu-trusty-32:/vagrant$ python logs.py
+
+First Query - What are the top three articles in order by number of views?
+
+1. The article ' Candidate is jerk, alleges rival ' had  338647 views.
+2. The article ' Bears love berries, alleges bear ' had  253801 views.
+3. The article ' Bad things gone, say good people ' had  170098 views.
+
+Second Query - Who are the most popular article authors in order by views?
+
+1. The author Ursula La Multa had 507594 views.
+2. The author Rudolf von Treppenwitz had 423457 views.
+3. The author Anonymous Contributor had 170098 views.
+4. The author Markoff Chaney had 84557 views.
+
+Third Query - What days have an error rate of 1% or greater?
+
+Enter the information of the period you want to analyze:
+What is the Month to start the analysis - Use its number?7
+What year?2016
+How many days should the report run?31
+
+Here are the days in the database log where the ERROR RATE is greater than 1%?
+
+For :  7 / 17 / 2016 the error rate is 2.263 %, and is GREATER THAN ONE PERCENT
+
+vagrant@vagrant-ubuntu-trusty-32:/vagrant$
 
